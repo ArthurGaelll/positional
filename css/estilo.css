@@ -1,47 +1,60 @@
 .box{
     border: 5px solid black;
     margin: 20px auto;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     position: relative;
 }
-
+h1{
+    text-align: center;
+}
+div{
+    justify-content: center;
+}
 
 .item1,.item2,.item3,.item4,.item5 {
     width: 100px;
     height: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
 }
 .item1{
-    background-color: red;
+    border: 2px solid red;
     position: relative;
-    top: 150px;
-    left: 150px;
+    top: 200px;
+    left: 200px;
     text-align: center;
-    text-height: 20px
+    
 }
 .item2{
    border: 2px solid blue;
    position: relative;
-   bottom: 88px;
-   left: 12px;
-   
+   bottom: 95px;
+   left: 10px;
+  
 }
 
 .item3{
     border: 2px solid purple;
     position: relative;
-    top: 80px;
-    left: 12px;
+    top: 179px;
+    left: 10px;
+
+    
 }
 .item4{
     border: 2px solid orange;
-    position: relative;
-    left: 285px;
-    bottom: 25px;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+  
 }
 .item5{
     border: 2px solid yellowgreen;
-    position: relative;
-    left: 285px;
-    bottom: 400px;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    
 }
