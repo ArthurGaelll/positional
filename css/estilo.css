@@ -1,0 +1,47 @@
+.box{
+    border: 5px solid black;
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+
+.item1,.item2,.item3,.item4,.item5 {
+    width: 100px;
+    height: 100px;
+}
+.item1{
+    background-color: red;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    text-align: center;
+    text-height: 20px
+}
+.item2{
+   border: 2px solid blue;
+   position: relative;
+   bottom: 88px;
+   left: 12px;
+   
+}
+
+.item3{
+    border: 2px solid purple;
+    position: relative;
+    top: 80px;
+    left: 12px;
+}
+.item4{
+    border: 2px solid orange;
+    position: relative;
+    left: 285px;
+    bottom: 25px;
+}
+.item5{
+    border: 2px solid yellowgreen;
+    position: relative;
+    left: 285px;
+    bottom: 400px;
+}
